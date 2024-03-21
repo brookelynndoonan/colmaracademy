@@ -143,17 +143,20 @@
 
 .right--heading-text .heading-button {
     margin-top: 15px;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
     height: 50px;
     width: 80%;
     background-color: #49524C;
-    font-size: 20px;
-    text-decoration: none;
     border: none;
-    color: white;
     font-family: Helvetica, sans-serif;
+}
+
+.heading-button a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
 }
 
 /* Practicing Section */
