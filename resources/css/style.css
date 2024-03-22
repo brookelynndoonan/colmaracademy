@@ -102,20 +102,27 @@ h2 {
   .mobile-nav {
       display: flex;
       flex-direction: column;
+      height: 40px;
   }
 
-  .mobile-nav .mobile-links {
+  .mobile-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -30px;
+  }
+  
+  .mobile-links img {
+    height: 150%;
+    width: 150%;
   }
 }
 
 
-
-
-/* LEARN SOMETHING SECTION */
+/* LEARN SOMETHING SECTION DESKTOP*/
 
 .learn-something {
     background-color: #d8d8d8;
@@ -176,6 +183,40 @@ h2 {
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: center;
+}
+
+/* LEARN SOMETHING SECTION Mobile*/
+@media only screen and (min-width: 200px) and (max-width: 770px) {
+  .learn-something {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-image {
+    width: 100%;
+  }
+
+  .right--heading-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200%;
+    margin: -32px 16px 32px 16px;
+  }
+
+  .right--heading-text h1{
+   text-align: center;
+  }
+  .right--heading-text p {
+    text-align: center;
+    margin-left: 35px;
+  }
+
+  .right--heading-text button {
+    margin-left: 35px;
+  }
 }
 
 /* Practicing Section */
@@ -292,7 +333,7 @@ h2 {
   margin-left: 32px;
   margin-bottom: 32px;
   width: 25%;
-  height: 420px;
+  height: 430px;
   background-color: white;
 }
 
