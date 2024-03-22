@@ -102,7 +102,7 @@ h2 {
   .mobile-nav {
       display: flex;
       flex-direction: column;
-      height: 40px;
+      height: 20px;
   }
 
   .mobile-links {
@@ -112,7 +112,7 @@ h2 {
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: -30px;
+    margin-top: -45px;
   }
   
   .mobile-links img {
@@ -254,6 +254,7 @@ h2 {
    margin-top: 30px;
 }
 
+
 /* RIGHT SIDE OF PRACTICE SECTION */
 
 .three-boxes-right {
@@ -299,6 +300,16 @@ h2 {
   color: blue;
   text-decoration: none;
 }
+
+/*PRACTICE SECTION MOBILE */
+
+@medi only screen and ()
+
+@media only screen and (min-width: 200px) and (max-width: 770px) {
+
+   /* NEED TO MAKE A SECTION FOR MOBILE IN HTML!! */
+}
+
 
 /* START LEARNING SECTION */
 
@@ -419,3 +430,9 @@ h2 {
   color: grey;
 }
 
+@media only screen and (min-width: 200px) and (max-width: 770px) {
+
+  .practicing-section, .start-learning, .exhibit-section, .bottom-info {
+    display: none;
+  }
+}
